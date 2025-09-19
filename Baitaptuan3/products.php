@@ -41,9 +41,7 @@
     <div>
         <?php
         $conn = mysqli_connect("localhost", "root", database: "shop");
-        if ($conn) {
-            echo "kết nối thành công";
-        }
+
         ?>
         <?php $idCategory = $_GET['id'] ?>
         <?php $res = mysqli_query($conn, "Select * from products where id=$idCategory") ?>

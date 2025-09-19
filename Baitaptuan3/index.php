@@ -32,9 +32,6 @@
 <div>
   <?php
  $conn = mysqli_connect("localhost", "root",  database:"shop"); 
- if ($conn){
-    echo "kết nối thành công"; 
- }
 ?>
  <?php   $res = mysqli_query($conn, "Select * from category" ) ?>
 <div class="container">
