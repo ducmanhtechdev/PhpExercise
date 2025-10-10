@@ -46,8 +46,6 @@ if (!$product) {
         </div>
     </div>
 
-    <?php print_r($_SESSION) ?>
-
     <script>
 function changeQuantity(change) {
     const quantityInput = document.getElementById('quantity');
